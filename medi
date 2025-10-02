@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicina plasticiană</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0a9396;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #005f73;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1 1 calc(45% - 20px);
+    }
+    footer {
+      background: #005f73;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Medicina plasticiană – între știință și artă</h1>
+    <p>Chirurgia plastică: știința care redă frumusețea și încrederea</p>
+  </header>
+
+  <nav>
+    <a href="#despre">Despre</a>
+    <a href="#interventii">Tipuri de intervenții</a>
+    <a href="#medici">Medici și inovații</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="despre">
+    <h2>Ce este chirurgia plastică?</h2>
+    <p>
+      Chirurgia plastică este specialitatea medicală care are ca scop repararea și remodelarea țesuturilor corpului uman.
+      Există două ramuri principale:
+    </p>
+    <ul>
+      <li><b>Chirurgia reconstructivă</b> – corectarea defectelor congenitale, traumatisme, arsuri.</li>
+      <li><b>Chirurgia estetică</b> – îmbunătățirea aspectului fizic și corectarea imperfecțiunilor.</li>
+    </ul>
+    <p>Acest domeniu îmbină medicina cu arta, redând pacienților încrederea în sine.</p>
+  </section>
+
+  <section id="interventii">
+    <h2>Tipuri de intervenții</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Estetice</h3>
+        <ul>
+          <li>Rinoplastie (operația nasului)</li>
+          <li>Lifting facial</li>
+          <li>Augmentare mamară</li>
+          <li>Liposucție</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Reconstructive</h3>
+        <ul>
+          <li>Corectarea malformațiilor congenitale</li>
+          <li>Reconstrucții după arsuri sau accidente</li>
+          <li>Transplanturi de țesuturi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="medici">
+    <h2>Medici celebri și inovații</h2>
+    <p>
+      Chirurgia plastică modernă a fost modelată de medici vizionari. 
+      Printre pionieri se numără <b>Sir Harold Gillies</b>, considerat părintele chirurgiei plastice.
+    </p>
+    <p>Astăzi, domeniul continuă să evolueze prin tehnologii moderne:</p>
+    <ul>
+      <li>Intervenții cu laser</li>
+      <li>Chirurgie asistată robotic</li>
+      <li>Tehnici de transplant și regenerare tisulară</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Acest site a fost realizat ca proiect educativ pentru atestatul la informatică.<br>
+      Dacă dorești să afli mai multe informații, completează formularul de mai jos:
+    </p>
+    <form>
+      <label>Nume:</label><br>
+      <input type="text" style="width:100%; padding:8px;"><br><br>
+      <label>Email:</label><br>
+      <input type="email" style="width:100%; padding:8px;"><br><br>
+      <label>Mesaj:</label><br>
+      <textarea style="width:100%; padding:8px;" rows="5"></textarea><br><br>
+      <button type="submit" style="padding:10px 20px; background:#0a9396; color:white; border:none; border-radius:5px;">Trimite</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 – Proiect atestat informatică: Medicina plasticiană</p>
+  </footer>
+
+</body>
+</html>
