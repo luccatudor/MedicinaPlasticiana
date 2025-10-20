@@ -8,20 +8,17 @@ body {
 header {
   background-color: #006d77;
   color: white;
-  padding: 20px;
   text-align: center;
 }
 
 nav {
   background-color: #83c5be;
   text-align: center;
-  padding: 10px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 15px;
   font-weight: bold;
 }
 
@@ -30,24 +27,16 @@ nav a:hover {
 }
 
 section {
-  max-width: 1000px;
   margin: auto;
-  padding: 30px;
 }
 
 h1, h2 {
   color: #006d77;
 }
 
-img {
-  max-width: 100%;
-  border-radius: 8px;
-}
 
 footer {
   background-color: #006d77;
   color: white;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
 }
