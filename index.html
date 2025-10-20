@@ -6,28 +6,28 @@
   <title>Medicina plasticiană</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
+      background: #f0f4f8;
       color: #333;
     }
     header {
       background: #005f73;
       color: white;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
     nav {
       background: #0a9396;
       display: flex;
       justify-content: center;
-      padding: 10px;
+      padding: 15px;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 0 20px;
       font-weight: bold;
     }
     nav a:hover {
@@ -35,11 +35,12 @@
     }
     section {
       padding: 40px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
-    h1, h2 {
+    h2 {
       color: #005f73;
+      margin-bottom: 20px;
     }
     .cards {
       display: flex;
@@ -50,15 +51,33 @@
       background: white;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      flex: 1 1 calc(45% - 20px);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 1 1 calc(50% - 20px);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #e0f7fa;
     }
     footer {
       background: #005f73;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 30px;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -66,77 +85,91 @@
 
   <header>
     <h1>Medicina plasticiană – între știință și artă</h1>
-    <p>Chirurgia plastică: știința care redă frumusețea și încrederea</p>
+    <p>Frumusețea redată prin precizie medicală</p>
   </header>
 
   <nav>
+    <a href="#acasa">Acasă</a>
     <a href="#despre">Despre</a>
-    <a href="#interventii">Tipuri de intervenții</a>
-    <a href="#medici">Medici și inovații</a>
+    <a href="#interventii">Intervenții</a>
+    <a href="#medici">Medici</a>
     <a href="#contact">Contact</a>
   </nav>
 
+  <section id="acasa">
+    <h2>Bine ai venit!</h2>
+    <p>Chirurgia plastică oferă soluții pentru reconstrucție și estetică. În România, domeniul este în plină expansiune, cu medici de top și tehnologii moderne.</p>
+    <img src="https://via.placeholder.com/800x400?text=Sala+de+operație" alt="Sala de operație">
+  </section>
+
   <section id="despre">
     <h2>Ce este chirurgia plastică?</h2>
-    <p>
-      Chirurgia plastică este specialitatea medicală care are ca scop repararea și remodelarea țesuturilor corpului uman.
-      Există două ramuri principale:
-    </p>
+    <p>Se împarte în două ramuri:</p>
     <ul>
-      <li><b>Chirurgia reconstructivă</b> – corectarea defectelor congenitale, traumatisme, arsuri.</li>
-      <li><b>Chirurgia estetică</b> – îmbunătățirea aspectului fizic și corectarea imperfecțiunilor.</li>
+      <li><strong>Reconstructivă</strong> – corectarea defectelor congenitale, arsuri, traumatisme.</li>
+      <li><strong>Estetică</strong> – îmbunătățirea aspectului fizic.</li>
     </ul>
-    <p>Acest domeniu îmbină medicina cu arta, redând pacienților încrederea în sine.</p>
+    <img src="https://via.placeholder.com/600x300?text=Estetică+vs+Reconstructivă" alt="Grafic comparativ">
   </section>
 
   <section id="interventii">
-    <h2>Tipuri de intervenții</h2>
+    <h2>Tipuri de intervenții și prețuri</h2>
     <div class="cards">
       <div class="card">
         <h3>Estetice</h3>
         <ul>
-          <li>Rinoplastie (operația nasului)</li>
-          <li>Lifting facial</li>
+          <li>Rinoplastie</li>
           <li>Augmentare mamară</li>
-          <li>Liposucție</li>
+          <li>Lifting facial</li>
+          <li>Blefaroplastie</li>
         </ul>
       </div>
       <div class="card">
         <h3>Reconstructive</h3>
         <ul>
-          <li>Corectarea malformațiilor congenitale</li>
-          <li>Reconstrucții după arsuri sau accidente</li>
+          <li>Corectarea malformațiilor</li>
+          <li>Reconstrucții post-traumatice</li>
           <li>Transplanturi de țesuturi</li>
         </ul>
       </div>
     </div>
+    <table>
+      <tr><th>Intervenție</th><th>Tip</th><th>Preț mediu (€)</th></tr>
+      <tr><td>Rinoplastie</td><td>Estetică</td><td>2500–4000</td></tr>
+      <tr><td>Augmentare mamară</td><td>Estetică</td><td>4500–7000</td></tr>
+      <tr><td>Reconstrucție post-arsură</td><td>Reconstructivă</td><td>Variabil</td></tr>
+    </table>
   </section>
 
   <section id="medici">
-    <h2>Medici celebri și inovații</h2>
-    <p>
-      Chirurgia plastică modernă a fost modelată de medici vizionari. 
-      Printre pionieri se numără <b>Sir Harold Gillies</b>, considerat părintele chirurgiei plastice.
-    </p>
-    <p>Astăzi, domeniul continuă să evolueze prin tehnologii moderne:</p>
+    <h2>Medici și inovații</h2>
+    <p>Printre pionieri se numără <strong>Sir Harold Gillies</strong>. În România, medici precum Dr. Răzvan Mercuț și Dr. Alina Mȋtcan contribuie la dezvoltarea domeniului.</p>
+    <p>Tehnologii moderne:</p>
     <ul>
-      <li>Intervenții cu laser</li>
-      <li>Chirurgie asistată robotic</li>
-      <li>Tehnici de transplant și regenerare tisulară</li>
+      <li>Laser CO₂</li>
+      <li>Chirurgie robotică</li>
+      <li>PRP (terapia vampir)</li>
     </ul>
+    <img src="https://via.placeholder.com/700x300?text=Echipamente+moderne" alt="Echipamente moderne">
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      Acest site a fost realizat ca proiect educativ pentru atestatul la informatică.<br>
-      Dacă dorești să afli mai multe informații, completează formularul de mai jos:
-    </p>
+    <h2>Contact și programări</h2>
+    <p>Completează formularul pentru a solicita informații sau o consultație:</p>
     <form>
       <label>Nume:</label><br>
       <input type="text" style="width:100%; padding:8px;"><br><br>
       <label>Email:</label><br>
       <input type="email" style="width:100%; padding:8px;"><br><br>
+      <label>Telefon:</label><br>
+      <input type="tel" style="width:100%; padding:8px;"><br><br>
+      <label>Tip intervenție dorită:</label><br>
+      <select style="width:100%; padding:8px;">
+        <option>Rinoplastie</option>
+        <option>Augmentare mamară</option>
+        <option>Lifting facial</option>
+        <option>Reconstrucție post-traumă</option>
+      </select><br><br>
       <label>Mesaj:</label><br>
       <textarea style="width:100%; padding:8px;" rows="5"></textarea><br><br>
       <button type="submit" style="padding:10px 20px; background:#0a9396; color:white; border:none; border-radius:5px;">Trimite</button>
